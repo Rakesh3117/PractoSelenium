@@ -1,0 +1,38 @@
+<suite name="Practo" parallel="false">
+
+
+	<parameter name="browser" value="chrome" />
+    <test name="Verify Category List of All Doctors">
+        <classes>
+            <class name="practoTestCases.PractoTestCases">
+                <methods>
+                    <include name="verify_the_category_list_of_all_doctors" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <parameter name="browser" value="edge" />
+    <test name="Verify Doctor Details Date Time">
+        <classes>
+            <class name="practoTestCases.PractoTestCases">
+                <methods>
+                    <include name="verify_doctor_details_date_time" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <parameter name="browser" value="chrome" />
+    <test name="Verify Filtered Values">
+        <classes>
+            <class name="practoTestCases.PractoTestCases">
+                <methods>
+                    <include name="verify_filtered_values" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+   
+   
+</suite>

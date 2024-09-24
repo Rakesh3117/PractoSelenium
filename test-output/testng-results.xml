@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="9" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-24T20:22:19 IST" name="Practo" finished-at="2024-09-24T20:23:02 IST" duration-ms="42801">
+    <groups>
+    </groups>
+    <test started-at="2024-09-24T20:22:19 IST" name="Verify Category List of All Doctors" finished-at="2024-09-24T20:22:34 IST" duration-ms="14310">
+      <class name="practoTestCases.PractoTestCases">
+        <test-method signature="verify_the_category_list_of_all_doctors(java.lang.String)[pri:1, instance:practoTestCases.PractoTestCases@7d0b7e3c]" started-at="2024-09-24T20:22:19 IST" name="verify_the_category_list_of_all_doctors" finished-at="2024-09-24T20:22:34 IST" duration-ms="14282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_the_category_list_of_all_doctors -->
+      </class> <!-- practoTestCases.PractoTestCases -->
+    </test> <!-- Verify Category List of All Doctors -->
+    <test started-at="2024-09-24T20:22:34 IST" name="Verify Doctor Details Date Time" finished-at="2024-09-24T20:22:49 IST" duration-ms="15010">
+      <class name="practoTestCases.PractoTestCases">
+        <test-method signature="verify_doctor_details_date_time(java.lang.String)[pri:2, instance:practoTestCases.PractoTestCases@909217e]" started-at="2024-09-24T20:22:34 IST" name="verify_doctor_details_date_time" finished-at="2024-09-24T20:22:49 IST" duration-ms="15004" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_doctor_details_date_time -->
+      </class> <!-- practoTestCases.PractoTestCases -->
+    </test> <!-- Verify Doctor Details Date Time -->
+    <test started-at="2024-09-24T20:22:49 IST" name="Verify Filtered Values" finished-at="2024-09-24T20:23:02 IST" duration-ms="13414">
+      <class name="practoTestCases.PractoTestCases">
+        <test-method is-config="true" signature="reportGeneration()[pri:0, instance:practoTestCases.PractoTestCases@68c9133c]" started-at="2024-09-24T20:22:19 IST" name="reportGeneration" finished-at="2024-09-24T20:22:19 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGeneration -->
+        <test-method signature="verify_filtered_values(java.lang.String)[pri:3, instance:practoTestCases.PractoTestCases@68c9133c]" started-at="2024-09-24T20:22:49 IST" name="verify_filtered_values" finished-at="2024-09-24T20:23:02 IST" duration-ms="13411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_filtered_values -->
+        <test-method is-config="true" signature="save_reports()[pri:0, instance:practoTestCases.PractoTestCases@68c9133c]" started-at="2024-09-24T20:23:02 IST" name="save_reports" finished-at="2024-09-24T20:23:02 IST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- save_reports -->
+      </class> <!-- practoTestCases.PractoTestCases -->
+    </test> <!-- Verify Filtered Values -->
+  </suite> <!-- Practo -->
+</testng-results>
